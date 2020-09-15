@@ -50,7 +50,7 @@ void loop()
   //Segunda revisión de touch
   if(touchdetected){
     current_state=next_state(current_state);
-    muestraEstadoActual(current_state);
+    mostrarEstadoActual(current_state);
     touchdetected = false;
   }
   
